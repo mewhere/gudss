@@ -22,7 +22,7 @@ ENV GOPATH /go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH"
 RUN go get github.com/Jitendra7007/gdrive
-RUN aria2c "https://arrowverse.daredevil.workers.dev/0://g.zip" && unzip g.zip
+#UN aria2c "https://arrowverse.daredevil.workers.dev/0://g.zip" && unzip g.zip
 
 # add mkvtoolnix
 RUN wget -q -O - https://mkvtoolnix.download/gpg-pub-moritzbunkus.txt | apt-key add - && \
