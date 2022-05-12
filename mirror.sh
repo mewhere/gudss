@@ -1,1 +1,1 @@
-unzip Testapp.zip -d Testapp/ && python3 -m tobrot
+unzip Testapp.zip -d Testapp/ && python3 -m bot
