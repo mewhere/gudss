@@ -6,4 +6,4 @@ git clone https://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@github.com/gillzxo/Te
 cd Testapp
 pip3 install -U -r requirements.txt
 _externals
-python bot
+python main.py
