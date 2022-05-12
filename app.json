@@ -1,6 +1,6 @@
 {
-  "name": "Heroku-Bypass-Deployer",
-  "description": "With this you can deploy repository that are banned/blacklisted by heroku",
+  "name": "power of heroku",
+  "description": "Wku",
   "keywords": [
     "telegram",
     "open",
@@ -18,7 +18,7 @@
     },
     "REPO_URL": {
       "description": "Enter the repository link that you want to deploy",
-      "value": "https://github.com/levina-lab/video-stream",
+      "value": "https://github.com/lomda",
       "required": false
     },
     "PYTHON_FILE": {
