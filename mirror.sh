@@ -19,6 +19,4 @@ _other_installs
 pip3 install -U pip
 git clone $REPO_URL Github_Repo
 cd Github_Repo
-pip3 install -U -r requirements.txt
-_externals
-python $PYTHON_FILE
+python3 $PYTHON_FILE
