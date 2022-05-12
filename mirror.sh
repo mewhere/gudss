@@ -1,1 +1,24 @@
-unzip Testapp.zip -d Testapp/ && python3 -m bot
+#!/bin/bash
+
+_other_installs () {
+   if [[ $OTHER_INSTALLS != "None" ]]
+   then
+    apt install $OTHER_INSTALLS -y
+   fi
+   }
+_externals () {
+   if [[ $OTHER_CMD != "None" ]]
+   then
+      $OTHER_CMD
+   fi
+   }
+    
+apt update && apt upgrade -y
+apt install git -y
+_other_installs
+pip3 install -U pip
+git clone $REPO_URL Github_Repo
+cd Github_Repo
+pip3 install -U -r requirements.txt
+_externals
+python $PYTHON_FILE
