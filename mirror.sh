@@ -19,4 +19,4 @@ _other_installs
 pip3 install -U pip
 git clone $REPO_URL Github_Repo
 cd Github_Repo
-python3 $PYTHON_FILE
+python3 -m 
