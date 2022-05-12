@@ -34,6 +34,17 @@
   },
   "addons": [
   ],
+  "addons": [
+      {
+        "plan": "heroku-postgresql",
+        "options": {
+          "version": "12"
+        },
+        "as":"DB_URI"
+      }
+    ],
+    "stack": "container"
+  },
   "buildpacks": [{
     "url": "heroku/python"
   }],
