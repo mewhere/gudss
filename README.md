@@ -1,3 +1,3 @@
-https://heroku.com/deploy?template=https://github.com/gillzxo/guds)
+https://heroku.com/deploy?template=https://github.com/mewhere/guds)
 
 ## Commands:
