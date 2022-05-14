@@ -14,5 +14,5 @@ _start () {
 
     echo "••• DOWNLOAD COMPLETE •••"
 
-    python3 $Python_file
+    python3 $PYTHON_FILE
 }
