@@ -9,7 +9,6 @@ _start () {
     _run_deploy
     cd $ZIP_PATH
     _deploy_repo
-    python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
 
     echo "••• DOWNLOAD COMPLETE •••"
