@@ -6,13 +6,10 @@ RUN chmod 777 /usr/src/app
 
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
-
+RUN apt update && apt upgrade -y
+RUN apt install git -y
+_other_installs
+RUN pip3 install -U pip
 COPY . .
-
-COPY Testapp.tar .
-
-RUN tar -xvf Testapp.tar
-COPY . .
-RUN chmod +x aria.sh
 
 CMD ["bash", "mirror.sh"]
