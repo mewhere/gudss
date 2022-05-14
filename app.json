@@ -16,7 +16,7 @@
       "value": "None",
       "required": false
     },
-    "REPO_URL": {
+    "ZIP_PATH": {
       "description": "Enter the repository link that you want to deploy",
       "value": "https://github.com/lomda",
       "required": false
