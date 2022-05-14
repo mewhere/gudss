@@ -8,7 +8,6 @@ COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 RUN apt update && apt upgrade -y
 RUN apt install git -y
-_other_installs
 RUN pip3 install -U pip
 COPY . .
 
